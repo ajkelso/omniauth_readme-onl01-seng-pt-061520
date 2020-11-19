@@ -14,6 +14,8 @@ gem 'coffee-rails', '~> 4.1.0'
 # gem 'therubyracer', platforms: :ruby
 
 gem 'thin'
+gem 'omniauth'
+gem 'omniauth-facebook'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
@@ -42,5 +44,7 @@ group :development, :test do
 
   gem 'pry'
 end
+
+gem 'dotenv-rails'
 
 # Access an IRB console on exception pages or by using <%= console %> in views
